@@ -11,6 +11,6 @@ $ repo sync
 
 $ source ./sources/meta-bootlink/bootlink-init-build-env rpi4diag-build
 
-$ bitbak bootlink-image
+$ bitbake bootlink-image
 
 
