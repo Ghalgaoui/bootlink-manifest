@@ -5,6 +5,7 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/Ghalgaoui/" name="Ghalgaoui"/>
+  <remote fetch="git://github.com/meta-qt5/" name="qt5"/>
 
   <project remote="yocto" name="poky" revision="dunfell" path="sources/poky"/>
   <project remote="yocto" name="meta-raspberrypi" revision="dunfell" path="sources/meta-raspberrypi"/>
@@ -12,6 +13,7 @@
   <project remote="Ghalgaoui" name="meta-bootlink.git" revision="dunfell" path="sources/meta-bootlink">
     <copyfile src="README.md" dest="README.md" />
   </project>
+  <project remote="qt5" name="meta-qt5" revision="dunfell" path="sources/meta-qt5"/>
 </manifest>
 
 
